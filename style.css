@@ -1,0 +1,98 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #121212;
+    color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    background: #1e1e1e;
+    padding: 2rem;
+    border-radius: 12px;
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Headings */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.question {
+    font-size: 1.3rem;
+    margin-bottom: 1.2rem;
+}
+
+/* Feedback Messages */
+.feedback {
+    font-size: 1rem;
+    margin: 1rem 0;
+    padding: 0.75rem;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+.correct {
+    background: #4CAF50;
+    color: #fff;
+}
+
+.incorrect {
+    background: #F44336;
+    color: #fff;
+}
+
+/* Choices */
+.choice {
+    display: block;
+    margin: 0.75rem 0;
+    cursor: pointer;
+}
+
+/* Buttons */
+button,
+.submit-btn {
+    background: #2196F3;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    font-size: 1rem;
+}
+
+button:hover,
+.submit-btn:hover {
+    background: #0b7dda;
+    transform: translateY(-2px);
+}
+
+button[type="submit"] {
+    background: #4CAF50;
+}
+
+button[type="submit"]:hover {
+    background: #45a049;
+}
+
+/* Custom Range (hidden) */
+#custom-range {
+    display: none;
+    margin-top: 1rem;
+}
